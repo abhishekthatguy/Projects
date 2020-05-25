@@ -42,7 +42,7 @@ return(
 }
 
         return(<li className={todo.completed?"completed" :"" }><span onClick={this.clickHandler} >{todo.task}</span>
-        <span><button onClick={this.deleteHandler}>Delete</button></span>
+        <span><button onClick={this.deleteHandler}>Delete Items</button></span>
         &nbsp;
         <span><button onClick={this.toggleEditHandler}>Edit</button></span>
         </li>)
